@@ -10,6 +10,8 @@ import {
 } from '@eventbridge-contracts/serverless-configuration';
 import { mergeStageParams } from '@eventbridge-contracts/serverless-helpers';
 
+import { Outputs, Resources } from 'resources';
+
 import { functions } from './functions';
 
 const serverlessConfiguration: AWS = {
@@ -50,7 +52,9 @@ const serverlessConfiguration: AWS = {
   },
   resources: {
     Description: 'Core service',
+    Resources,
     Outputs: {
+      ...Outputs,
       HttpApiId: httpApiResourceContract.exportValue({
         description: 'The shared httpApi resource',
         value: { Ref: 'HttpApi' },

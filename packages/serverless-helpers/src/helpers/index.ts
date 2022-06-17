@@ -3,3 +3,4 @@ export { default as getEnvVariable } from './getEnvVariable';
 export { default as getHandlerPath } from './getHandlerPath';
 export { default as testFunctionNames } from './testFunctionNames';
 export { default as mergeStageParams } from './mergeStageParams';
+export { default as getAttribute } from './getAttribute';

@@ -2,6 +2,8 @@ export const projectName = 'eventbridge-contracts';
 export const region = 'eu-west-1';
 export const frameworkVersion = '>=3.0.0';
 
+export const eventBusName = 'eventbridge-contracts-bus';
+
 export const defaultEnvironment = 'dev';
 
 export const sharedProviderConfig = {
