@@ -1,10 +1,10 @@
 import { getTrigger } from '@swarmion/serverless-contracts';
 
-import { getThreadWithPostsContract } from '@swarmion-starter/forum-contracts';
+import { getThreadWithPostsContract } from '@eventbridge-contracts/forum-contracts';
 import {
   getHandlerPath,
   LambdaFunction,
-} from '@swarmion-starter/serverless-helpers';
+} from '@eventbridge-contracts/serverless-helpers';
 
 const config: LambdaFunction = {
   environment: {},

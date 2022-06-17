@@ -33,7 +33,9 @@ module.exports = {
     'import/order': [
       'error',
       {
-        pathGroups: [{ pattern: '@swarmion-starter/**', group: 'unknown' }],
+        pathGroups: [
+          { pattern: '@eventbridge-contracts/**', group: 'unknown' },
+        ],
         groups: [
           ['external', 'builtin'],
           'unknown',
@@ -78,7 +80,7 @@ module.exports = {
       {
         patterns: [
           {
-            group: ['@swarmion-starter/*/*'],
+            group: ['@eventbridge-contracts/*/*'],
             message:
               'import of internal modules must be done at the root level.',
           },

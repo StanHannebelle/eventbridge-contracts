@@ -1,6 +1,6 @@
 import type { InitialOptionsTsJest } from 'ts-jest/dist/types';
 
-import { jestConfig } from '@swarmion-starter/configuration';
+import { jestConfig } from '@eventbridge-contracts/configuration';
 
 const config: InitialOptionsTsJest = {
   ...jestConfig,

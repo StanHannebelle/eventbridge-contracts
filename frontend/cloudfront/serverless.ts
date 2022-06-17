@@ -6,7 +6,7 @@ import {
   projectName,
   sharedParams,
   sharedProviderConfig,
-} from '@swarmion-starter/serverless-configuration';
+} from '@eventbridge-contracts/serverless-configuration';
 
 const serverlessConfiguration: AWS & Lift = {
   service: `${projectName}-frontend`, // Keep it short to have role name below 64

@@ -1,5 +1,5 @@
 {
-  "name": "@swarmion-starter/serverless-configuration",
+  "name": "@eventbridge-contracts/serverless-configuration",
   "private": true,
   "version": "1.0.0",
   "license": "UNLICENSED",

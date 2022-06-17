@@ -1,4 +1,4 @@
-export const projectName = 'swarmion-starter';
+export const projectName = 'eventbridge-contracts';
 export const region = 'eu-west-1';
 export const frameworkVersion = '>=3.0.0';
 
@@ -25,7 +25,7 @@ export const sharedProviderConfig = {
  * An empty string for a profile means that the default profile will be used
  */
 export const sharedParams = {
-  dev: { profile: 'swarmion-starter-developer' },
+  dev: { profile: 'eventbridge-contracts-developer' },
   staging: { profile: '' },
   production: { profile: '' },
 };

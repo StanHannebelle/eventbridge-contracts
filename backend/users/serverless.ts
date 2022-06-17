@@ -1,13 +1,13 @@
 import { AWS } from '@serverless/typescript';
 
-import { httpApiResourceContract } from '@swarmion-starter/core-contracts';
+import { httpApiResourceContract } from '@eventbridge-contracts/core-contracts';
 import {
   frameworkVersion,
   projectName,
   sharedEsbuildConfig,
   sharedParams,
   sharedProviderConfig,
-} from '@swarmion-starter/serverless-configuration';
+} from '@eventbridge-contracts/serverless-configuration';
 
 import { functions } from './functions';
 
