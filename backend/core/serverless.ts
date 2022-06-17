@@ -21,6 +21,7 @@ const serverlessConfiguration: AWS = {
   plugins: ['serverless-esbuild', 'serverless-iam-roles-per-function'],
   provider: {
     ...sharedProviderConfig,
+    eventBridge: { useCloudFormation: true },
     httpApi: {
       payload: '2.0',
       cors: {

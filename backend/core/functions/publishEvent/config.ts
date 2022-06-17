@@ -6,8 +6,7 @@ import {
 const config: LambdaFunction = {
   environment: {
     EVENTBRIDGE_BUS_ARN: {
-      'Fn::ImportValue':
-        '${self:custom.projectName}-EventBridgeArn-${self:provider.stage}',
+      'Fn::GetAtt': ['EventBridge', 'Arn'],
     },
   },
   handler: getHandlerPath(__dirname),
@@ -23,8 +22,7 @@ const config: LambdaFunction = {
     {
       Effect: 'Allow',
       Resource: {
-        'Fn::ImportValue':
-          '${self:custom.projectName}-EventBridgeArn-${self:provider.stage}',
+        'Fn::GetAtt': ['EventBridge', 'Arn'],
       },
       Action: ['events:PutEvents'],
     },

@@ -20,7 +20,6 @@ export const params = {
 export const ebClient = new EventBridgeClient({ region });
 
 export const main = async (): Promise<string> => {
-  console.log('ARN : ', getEnvVariable('EVENTBRIDGE_BUS_ARN'));
   const data = await ebClient.send(new PutEventsCommand(params));
   console.log('Success, event sent; requestID:', data);
 
