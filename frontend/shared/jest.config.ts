@@ -1,6 +1,6 @@
 import type { Config } from '@jest/types';
 
-import { jestConfig } from '@swarmion-starter/configuration';
+import { jestConfig } from '@eventbridge-contracts/configuration';
 
 const config: Config.InitialOptions = {
   ...jestConfig,

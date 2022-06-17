@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { NotFound } from '@swarmion-starter/frontend-shared';
+import { NotFound } from '@eventbridge-contracts/frontend-shared';
 
 import { RoutePaths } from 'types';
 

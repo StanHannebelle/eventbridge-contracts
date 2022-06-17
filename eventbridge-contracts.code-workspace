@@ -27,7 +27,7 @@
     "typescript.tsdk": "node_modules/typescript/lib",
     "jest.autoRun": "off",
     "jest.disabledWorkspaceFolders": [
-      "swarmion-starter root",
+      "eventbridge-contracts root",
       "frontend cloudfront [service]"
     ],
     "jest.jestCommandLine": "yarn jest",
@@ -52,7 +52,7 @@
   "folders": [
     {
       "path": ".",
-      "name": "swarmion-starter root"
+      "name": "eventbridge-contracts root"
     },
     {
       "path": "backend/core",

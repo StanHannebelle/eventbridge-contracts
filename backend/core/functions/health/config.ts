@@ -1,7 +1,7 @@
 import {
   getHandlerPath,
   LambdaFunction,
-} from '@swarmion-starter/serverless-helpers';
+} from '@eventbridge-contracts/serverless-helpers';
 
 const config: LambdaFunction = {
   environment: {},

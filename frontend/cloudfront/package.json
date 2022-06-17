@@ -1,5 +1,5 @@
 {
-  "name": "@swarmion-starter/frontend-cloudfront",
+  "name": "@eventbridge-contracts/frontend-cloudfront",
   "private": true,
   "version": "1.0.0",
   "license": "UNLICENSED",
@@ -16,8 +16,8 @@
     "test-type": "tsc --noEmit"
   },
   "dependencies": {
-    "@swarmion-starter/serverless-configuration": "1.0.0",
-    "@swarmion-starter/users-contracts": "1.0.0"
+    "@eventbridge-contracts/serverless-configuration": "1.0.0",
+    "@eventbridge-contracts/users-contracts": "1.0.0"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.19.0",

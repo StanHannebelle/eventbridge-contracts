@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-import { UserEntity } from '@swarmion-starter/users-contracts';
+import { UserEntity } from '@eventbridge-contracts/users-contracts';
 
 export type UserData = UserEntity | null;
 
